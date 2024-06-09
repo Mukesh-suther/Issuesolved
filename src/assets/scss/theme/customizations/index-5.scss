@@ -1,0 +1,59 @@
+.home-five {
+    .uni-services {
+        .service-item {
+            transition: 200ms cubic-bezier(1, 0, 0.08, 1) !important;
+            .icon ,
+            .title ,
+            .link-btn {
+                transition: 200ms cubic-bezier(1, 0, 0.08, 1) !important;
+            }
+            &:hover {
+                .icon ,
+                .title ,
+                .link-btn {
+                    color: var(--color-white) !important;
+                }
+            }
+        }
+    }
+    .uni-about {
+        .bg-absolute {
+            height: 115%;
+            top: 2%;
+            right: 1%;
+        }
+        .v-line {
+            min-width: 2px !important;
+        }
+    }
+    .uni-works {
+        .uni-work-item {
+            .uni-work-item-content {
+                position: absolute;
+                width: 101%;
+                left: -1px;
+                bottom: 0;
+                overflow: hidden;
+                box-sizing: border-box;
+                transform: translateY(100%);
+                transition: transform 0.4s ease-in-out;
+                .content-holder {
+                    opacity: 0;
+                    transform: translateY(-150%);
+                    transition: transform 0.35s cubic-bezier(1, 0, 0, 1), opacity 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+                }
+            }
+            &:hover {
+                .uni-work-item-content {
+                    transform: translateY(0);
+                    transition: transform 0.45s cubic-bezier(1, 0, 0, 1);
+                    .content-holder {
+                        opacity: 1;
+                        transform: translateY(0);
+                        transition: 0.45s cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
+                    }
+                }
+            }
+        }
+    }
+}

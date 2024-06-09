@@ -1,0 +1,51 @@
+.header {
+    .header-navbar {
+        padding: 0;
+        .navbar-menu {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            > li {
+                ul {
+                    @include dark-prop('border-color', rgb(0 0 0 / 0%), rgb(255 255 255 / 10%));
+                    padding: 1rem 0;
+                    li a {
+                        padding: 0.5rem 1rem;
+                        border-radius: 0;
+                    }
+                }
+                > a {
+                    display: inline-flex;
+                    gap: 4px;
+                    line-height: 80px;
+                }
+                > ul * ul {
+                    top: calc(-1rem + -1px);
+                    left: 100%;
+                }
+            }
+            .megamenu {
+                @include dark-prop('border-color', rgb(0 0 0 / 0%), rgb(255 255 255 / 10%));
+            }
+        }
+    }
+    .uc-sticky.uc-active {
+        @include dark-prop('background-color', white, var(--color-gray-900));
+        box-shadow: 0 1px 10px -2px rgb(0 0 0 / 15%) !important;
+        .top-panel {
+            padding: 0 !important;
+        }
+        .main-panel {
+            padding: 0.5rem 0 !important;
+            .uc-logo img {
+                width: 140px;
+            }
+        }
+        .navbar-menu > li > a {
+            line-height: 56px !important;
+        }
+    }
+    &.uc-dark .uc-sticky.uc-active {
+        background-color: rgba(var(--bs-gray-800-rgb), 0.95) !important;
+    }
+}

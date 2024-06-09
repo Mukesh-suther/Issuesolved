@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Your Web3 Presence in Poland and beyond</title>
+        <meta name="description" content="We make sure that your crypto trading project is seen by thousands of people">
+        <meta name="theme-color" content="#15171A">
+
+        <!-- preload head styles -->
+        <link rel="preload" href="../assets/css/unicons.min.css" as="style">
+        <link rel="preload" href="../assets/css/swiper-bundle.min.css" as="style">
+        <link rel="preload" href="../assets/css/magic-cursor.min.css" as="style">
+
+        <!-- preload footer scripts -->
+        <link rel="preload" href="../assets/js/libs/jquery.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/scrollmagic.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/swiper-bundle.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/split-type.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/anime.min.js" as="script">
+        <link rel="preload" href="../assets/js/libs/gsap.min.js" as="script">
+        <link rel="preload" href="../assets/js/helpers/data-attr-helper.js" as="script">
+        <link rel="preload" href="../assets/js/helpers/swiper-helper.js" as="script">
+        <link rel="preload" href="../assets/js/helpers/splitype-helper.js" as="script">
+        <link rel="preload" href="../assets/js/helpers/anime-helper.js" as="script">
+        <link rel="preload" href="../assets/js/helpers/anime-helper-defined-timelines.js" as="script">
+        <link rel="preload" href="../assets/js/core/preloader.js" as="script">
+        <link rel="preload" href="../assets/js/core/marquee.js" as="script">
+        <link rel="preload" href="../assets/js/uikit-components-bs.js" as="script">
+        <link rel="preload" href="../assets/js/app.js" as="script">
+
+        <!-- app head for bootstrap core -->
+        <script src="../assets/js/app-head-bs.js"></script>
+
+        <!-- include uni-core components -->
+        <link rel="stylesheet" href="../assets/js/uni-core/css/components/base.min.css">
+
+        <!-- include styles -->
+        <link rel="stylesheet" href="../assets/css/unicons.min.css">
+        <link rel="stylesheet" href="../assets/css/prettify.min.css">
+        <link rel="stylesheet" href="../assets/css/swiper-bundle.min.css">
+        <link rel="stylesheet" href="../assets/css/magic-cursor.min.css">
+
+        <!-- include main style -->
+        <link rel="stylesheet" href="../assets/css/theme/main.min.css">
+
+        <!-- include scripts -->
+        <script src="../assets/js/uni-core/js/uni-core.min.js"></script>
+    </head>
+    <body class="uni-body panel home-two bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden">
+
+        <!--  Search modal -->
+        <div id="uc-search-modal" class="uc-modal-full uc-modal" data-uc-modal="overlay: true">
+            <div class="uc-modal-dialog d-flex justify-center bg-white text-dark dark:bg-gray-900 dark:text-white" data-uc-height-viewport="">
+                <div class="uc-modal-close-full m-1 p-0 vstack gap-narrow text-center">
+                    <button class="icon-3 btn btn-md btn-dark dark:bg-white dark:text-dark w-24px sm:w-32px h-24px sm:h-32px rounded-circle flex-1" type="button">
+                        <i class="unicon-close"></i>
+                    </button>
+                    <span class="ft-tertiary fs-7">ESC</span>
+                </div>
+
+                <div class="panel w-100 sm:w-500px px-2 py-10">
+                    <h3 class="h4 sm:h2 text-center">What are you looking for?</h3>
+                    <form class="hstack gap-1 mt-4 border-bottom p-narrow dark:border-gray-700" action="?">
+                        <span class="d-inline-flex justify-center items-center w-24px sm:w-40 h-24px sm:h-40px opacity-50"><i class="unicon-search icon-3"></i></span>
+                        <input type="search" name="q" class="form-control-plaintext ms-1 fs-6 sm:fs-5 w-full dark:text-white" placeholder="Type your keyword.." aria-label="Search" autofocus>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!--  Acccount modal -->
+        <div id="uc-account-modal" data-uc-modal="overlay: true">
+            <div class="uc-modal-dialog lg:max-w-500px bg-white text-dark dark:bg-gray-800 dark:text-white rounded">
+                <button class="uc-modal-close-default p-0 icon-2 btn btn-md btn-dark dark:bg-white dark:text-dark rounded-circle" type="button">
+                    <i class="unicon-close"></i>
+                </button>
+
+                <div class="panel vstack gap-2 md:gap-4 text-center">
+                    <ul class="account-tabs-nav nav-x justify-center h6 py-2 border-bottom d-none" data-uc-switcher="animation: uc-animation-slide-bottom-small, uc-animation-slide-top-small">
+                        <li><a href="#">Sign in</a></li>
+                        <li><a href="#">Sign up</a></li>
+                        <li><a href="#">Reset password</a></li>
+                        <li><a href="#">Terms of use</a></li>
+                    </ul>
+                    <div class="account-tabs-content uc-switcher px-3 lg:px-4 py-4 lg:py-8 m-0 lg:mx-auto vstack justify-center items-center">
+                        <div class="w-100">
+                            <div class="panel vstack justify-center items-center gap-2 sm:gap-4 text-center">
+                                <h4 class="h5 lg:h4 m-0">Book A Call</h4>
+                                <div class="panel vstack gap-4 w-100 sm:w-350px mx-auto">
+                                    <form class="vstack gap-2">
+                                        <input class="form-control h-48px w-full bg-white dark:border-white" type="email" placeholder="Your email" required>
+                                        <input class="form-control h-48px w-full bg-white dark:border-white" type="password" placeholder="Password" required>
+                                        <div class="hstack justify-between items-start text-start">
+                                            <div class="form-check text-start">
+                                                <input class="form-check-input rounded-0 dark:bg-gray-900 dark:text-white dark:border-gray-700" type="checkbox" id="inputCheckRemember">
+                                                <label class="hstack justify-between form-check-label fs-7 sm:fs-6" for="inputCheckRemember">Remember me?</label>
+                                            </div>
+                                            <a href="#" class="uc-link" data-uc-switcher-item="2">Forgot password</a>
+                                        </div>
+                                        <button class="btn btn-primary btn-md text-white lg:mt-2" type="submit">Log in</button>
+                                    </form>
+                                    <div class="panel">
+                                        <hr class="m-0">
+                                        <span class="position-absolute top-50 start-50 translate-middle p-1 fs-7 text-uppercase bg-white dark:bg-gray-800">Or</span>
+                                    </div>
+                                    <div class="hstack gap-2">
+                                        <a href="#google" class="hstack items-center justify-center flex-1 gap-1 h-48px text-none rounded border border-gray-900 dark:border-white border-opacity-10">
+                                            <i class="icon icon-1 unicon-logo-google"></i>
+                                        </a>
+                                        <a href="#facebook" class="hstack items-center justify-center flex-1 gap-1 h-48px text-none rounded border border-gray-900 dark:border-white border-opacity-10">
+                                            <i class="icon icon-1 unicon-logo-facebook"></i>
+                                        </a>
+                                        <a href="#twitter" class="hstack items-center justify-center flex-1 gap-1 h-48px text-none rounded border border-gray-900 dark:border-white border-opacity-10">
+                                            <i class="icon icon-1 unicon-logo-twitter"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="fs-7 sm:fs-6">Have no account yet? <a class="uc-link" href="#" data-uc-switcher-item="1">Sign up</a></p>
+                            </div>
+                        </div>
+                        <div class="w-100">
+                            <div class="panel vstack justify-center items-center gap-2 sm:gap-4 text-center">
+                                <h4 class="h5 lg:h4 m-0">Create an account</h4>
+                                <div class="panel vstack gap-4 w-100 sm:w-350px mx-auto">
+                                    <form class="vstack gap-2">
+                                        <input class="form-control h-48px w-full bg-white dark:border-white" type="text" placeholder="Full name" required>
+                                        <input class="form-control h-48px w-full bg-white dark:border-white" type="email" placeholder="Your email" required>
+                                        <input class="form-control h-48px w-full bg-white dark:border-white" type="password" placeholder="Password" required>
+                                        <input class="form-control h-48px w-full bg-white dark:border-white" type="password" placeholder="Re-enter Password" required>
+                                        <div class="hstack text-start">
+                                            <div class="form-check text-start">
+                                                <input class="form-check-input rounded-0 dark:bg-gray-900 dark:text-white dark:border-gray-700" type="checkbox" required>
+                                                <label class="hstack justify-between form-check-label fs-7 sm:fs-6">I read and accept the <a href="#" class="uc-link ms-narrow" data-uc-switcher-item="3">terms of use</a>. </label>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-primary btn-md text-white lg:mt-2" type="submit">Sign up</button>
+                                    </form>
+                                    <div class="panel">
+                                        <hr class="m-0">
+                                        <span class="position-absolute top-50 start-50 translate-middle p-1 fs-7 text-uppercase bg-white dark:bg-gray-800">Or</span>
+                                    </div>
+                                    <div class="hstack gap-2">
+                                        <a href="#google" class="hstack items-center justify-center flex-1 gap-1 h-48px text-none rounded border border-gray-900 dark:border-white border-opacity-10">
+                                            <i class="icon icon-1 unicon-logo-google"></i>
+                                        </a>
+                                        <a href="#facebook" class="hstack items-center justify-center flex-1 gap-1 h-48px text-none rounded border border-gray-900 dark:border-white border-opacity-10">
+                                            <i class="icon icon-1 unicon-logo-facebook"></i>
+                                        </a>
+                                        <a href="#twitter" class="hstack items-center justify-center flex-1 gap-1 h-48px text-none rounded border border-gray-900 dark:border-white border-opacity-10">
+                                            <i class="icon icon-1 unicon-logo-twitter"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <p class="fs-7 sm:fs-6">Already have an account? <a class="uc-link" href="#" data-uc-switcher-item="0">Log in</a></p>
+                            </div>
+                        </div>
+                        <div class="w-100">
+                            <div class="panel vstack justify-center items-center gap-2 sm:gap-4 text-center">
+                                <h4 class="h5 lg:h4 m-0">Reset password</h4>
+                                <div class="panel w-100 sm:w-350px">
+                                    <form class="vstack gap-2">
+                                        <input class="form-control h-48px w-full bg-white dark:border-white" type="email" placeholder="Your email" required>
+                                        <div class="form-check text-start">
+                                            <input class="form-check-input rounded-0 dark:bg-gray-900 dark:text-white dark:border-gray-700" type="checkbox" id="inputCheckVerify" required>
+                                            <label class="form-check-label fs-7 sm:fs-6" for="inputCheckVerify"> <span>I'm not a robot</span>. </label>
+                                        </div>
+                                        <button class="btn btn-primary btn-md text-white lg:mt-2" type="submit">Reset a password</button>
+                                    </form>
+                                </div>
+                                <p class="fs-7 sm:fs-6 mt-2 sm:m-0">Remember your password? <a class="uc-link" href="#" data-uc-switcher-item="0">Log in</a></p>
+                            </div>
+                        </div>
+                        <div class="w-100">
+                            <div class="panel vstack justify-center items-center gap-2 sm:gap-4">
+                                <h4 class="h5 lg:h4 m-0">Terms of use</h4>
+                                <div class="page-content panel fs-6 text-start max-h-400px overflow-scroll">
+                                    <p>Terms of use dolor sit amet consectetur, adipisicing elit. Recusandae provident ullam aperiam quo ad non corrupti sit vel quam repellat ipsa quod sed, repellendus adipisci, ducimus ea modi odio assumenda.</p>
+                                    <h5 class="h6 md:h5 mt-3 mb-1">Disclaimers</h5>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi, cum esse possimus officiis amet ea voluptatibus libero! Dolorum assumenda esse, deserunt ipsum ad iusto! Praesentium error nobis tenetur at, quis nostrum facere excepturi architecto totam.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, soluta alias eaque modi ipsum sint iusto fugiat vero velit rerum.</p>
+                                    <h5 class="h6 md:h5 mt-3 mb-1">Limitation on Liability</h5>
+                                    <p>Sequi, cum esse possimus officiis amet ea voluptatibus libero! Dolorum assumenda esse, deserunt ipsum ad iusto! Praesentium error nobis tenetur at, quis nostrum facere excepturi architecto totam.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, soluta alias eaque modi ipsum sint iusto fugiat vero velit rerum.</p>
+                                    <h5 class="h6 md:h5 mt-3 mb-1">Copyright Policy</h5>
+                                    <p>Dolor sit amet consectetur adipisicing elit. Sequi, cum esse possimus officiis amet ea voluptatibus libero! Dolorum assumenda esse, deserunt ipsum ad iusto! Praesentium error nobis tenetur at, quis nostrum facere excepturi architecto totam.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, soluta alias eaque modi ipsum sint iusto fugiat vero velit rerum.</p>
+                                    <h5 class="h6 md:h5 mt-3 mb-1">General</h5>
+                                    <p>Sit amet consectetur adipisicing elit. Sequi, cum esse possimus officiis amet ea voluptatibus libero! Dolorum assumenda esse, deserunt ipsum ad iusto! Praesentium error nobis tenetur at, quis nostrum facere excepturi architecto totam.</p>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, soluta alias eaque modi ipsum sint iusto fugiat vero velit rerum.</p>
+                                </div>
+                                <p class="fs-7 sm:fs-6">Do you agree to our terms? <a class="uc-link" href="#" data-uc-switcher-item="1">Sign up</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  Menu panel -->
+        <div id="uc-menu-panel" data-uc-offcanvas="overlay: true;">
+            <div class="uc-offcanvas-bar bg-white dark:bg-gray-900">
+                <header class="uc-offcanvas-header hstack justify-between items-center pb-4 bg-white dark:bg-gray-900">
+                    <div class="uc-logo">
+                        <a href="/" class="h5 text-none">
+                            <img class="w-100px sm:w-128px d-block dark:d-none" src="../assets/images/logo/logo-light.svg" alt="logo-light">
+                            <img class="w-100px sm:w-128px d-none dark:d-block" src="../assets/images/logo/logo-dark.svg" alt="logo-dark">
+                        </a>
+                    </div>
+                    <button class="uc-offcanvas-close position-relative top-0 end-0 m-0 p-0 icon-3 btn btn-md btn-alt-dark dark:bg-white dark:text-dark rounded-circle" type="button">
+                        <i class="unicon-close"></i>
+                    </button>
+                </header>
+
+           
+            </div>
+        </div>
+
+        <!--  Contact modal -->
+        <div id="uc-contact-modal" data-uc-modal="overlay: true">
+            <div class="uc-modal-dialog lg:max-w-500px bg-white text-dark dark:bg-gray-800 dark:text-white rounded">
+                <button class="uc-modal-close-default p-0 icon-2 btn btn-md btn-dark dark:bg-white dark:text-dark rounded-circle" type="button">
+                    <i class="unicon-close"></i>
+                </button>
+
+                <div class="panel vstack gap-2 md:gap-4 text-center">
+                    <div class="panel cstack px-3 lg:px-4 py-4 lg:py-8 m-0 lg:mx-auto">
+                        <div class="panel vstack justify-center items-center gap-2 sm:gap-4 text-center">
+                            <h4 class="h5 lg:h4 m-0">Let's get in touch</h4>
+                            <div class="panel w-100 sm:w-350px xl:w-400px mx-auto">
+                                <form class="vstack gap-2">
+                                    <input class="form-control h-48px w-full bg-white dark:border-white" type="text" placeholder="Full name" required>
+                                    <input class="form-control h-48px w-full bg-white dark:border-white" type="email" placeholder="Your email" required>
+                                    <input class="form-control h-48px w-full bg-white dark:border-white" type="text" placeholder="Subject">
+                                    <textarea class="form-control min-h-150px w-full bg-white dark:border-white" placeholder="Your message.." required></textarea>
+                                    <button class="btn btn-primary btn-md text-white mt-2" type="submit">Send message</button>
+                                </form>
+                            </div>
+                            <p>Or drop us a message via <a class="uc-link" href="mailto:hello@noticia.co">email</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--  To Top Sticky -->
+        <a class="to-top position-fixed bottom-0 end-0 m-3 w-40px h-40px d-none xl:d-inline-flex items-center justify-center rounded-circle text-none z-99 bg-primary text-white" href="#to_top" data-uc-scroll>
+            <i class="icon icon-2 unicon-chevron-up"></i>
+        </a>
+
+
+        <!-- Header start -->
+        <header class="uc-header uc-navbar-sticky-wrap z-999 uc-dark" data-uc-sticky="start: 170; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: ! *;">
+            <nav class="uc-navbar-container uc-navbar-float uc-dark text-black z-1" data-anime="translateY: [-40, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 0;">
+                <div class="container max-w-xl">
+                    <div class="uc-navbar min-h-64px lg:min-h-80px text-gray-900 dark:text-white" data-uc-navbar="mode: click; animation: uc-animation-slide-top-small; duration: 150;">
+                        <div class="uc-navbar-left">
+                            <div class="uc-logo text-inherit">
+                                <a class="hstack gap-1" href="index.html" style="width: 140px">
+                                    <img class="w-100px sm:w-128px d-block dark:d-none" src="../assets/images/logo/logo-light.svg" alt="Noticia">
+                                    <img class="w-100px sm:w-128px d-none dark:d-block" src="../assets/images/logo/logo-dark.svg" alt="Noticia">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="uc-navbar-center ft-secondary text-uppercase">
+                        </div>
+                        <div class="uc-navbar-right">
+                            <a class="btn btn-md btn-primary fs-4 text-white text-none d-none lg:d-inline-flex ft-secondary text-uppercase ls-0" href="https://calendly.com/vigitalbox">Book A Call <i class="icon-1 ms-1 unicon-arrow-right"></i></a>
+                         
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <header hidden class="uc-header uc-navbar-sticky-wrap z-999 uc-dark" data-uc-sticky="start: 170; animation: uc-animation-slide-top; sel-target: .uc-navbar-container; cls-active: uc-navbar-sticky; cls-inactive: uc-navbar-transparent; end: ! *;">
+            <nav class="uc-navbar-container uc-navbar-float uc-dark text-black z-1">
+                <div class="container max-w-xl">
+                    <div class="uc-navbar min-h-64px lg:min-h-80px text-gray-900 dark:text-white" data-uc-navbar="mode: click; animation: uc-animation-slide-top-small; duration: 150;">
+                        <div class="uc-navbar-left">
+                            <div class="uc-logo text-dark dark:text-white">
+                                <a class="hstack gap-1" href="index.html" style="width: 140px">
+                                    <img class="w-100px sm:w-128px d-block dark:d-none" src="../assets/images/logo/logo-light.svg" alt="Noticia">
+                                    <img class="w-100px sm:w-128px d-none dark:d-block" src="../assets/images/logo/logo-dark.svg" alt="Noticia">
+                                </a>
+                            </div>
+                        </div>
+                    
+                   
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Header end -->
+
+        <!-- Wrapper start -->
+        <div id="wrapper" class="wrap">
+
+            <!-- Section start -->
+            <div id="uni_hero" class="uni-hero section panel vstack justify-center overflow-hidden h-550px sm:h-400px md:h-screen">
+                <img src="../assets/images/hero/hero-02.jpg" alt="image" class="media-cover top-0 start-0">
+                <div class="position-absolute top-0 start-0 w-100 h-100 bg-black opacity-40"></div>
+                <div class="position-absolute bottom-0 start-0 w-100 h-100 bg-gradient-to-t from-black to-transparent"></div>
+                <div class="section-outer panel py-6 md:py-9 xl:pt-10">
+                    <div class="container max-w-xl">
+                        <div class="section-inner panel">
+                            <div class="vstack gap-2 md:gap-4 xl:gap-5 text-center" data-anime="targets: > *; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(100, {start: 250});">
+                                <div class="panel">
+                                    <h1 class="h2 sm:h1 md:display-3 lg:display-2 xl:display-1 text-uppercase text-white m-0">
+                                        We scale your crypto project <br class="d-none sm:d-block">
+                                        in Poland and beyond.
+                                    </h1>
+                                    <div data-anime="targets: img; scale: [0.8, 1]; opacity: [0, 1]; easing: spring(1, 80, 10, 0); duration: 450; delay: anime.stagger(50, {start: 550});">
+                                        <img class="position-absolute w-80px d-none xl:d-block" src="../assets/images/common/union.svg" alt="Object" style="top: -11%; right: 24%">
+                                        <img class="position-absolute w-64px d-none lg:d-block xl:d-none" src="../assets/images/common/union.svg" alt="Object" style="top: -14%; right: 16%">
+                                        <img class="position-absolute w-56px d-none md:d-block lg:d-none" src="../assets/images/common/union.svg" alt="Object" style="top: -12%; right: 9%">
+                                        <img class="position-absolute w-32px sm:d-none" src="../assets/images/common/union.svg" alt="Object" style="top: -10%; right: 1%">
+                                        <img class="position-absolute d-none xl:d-block" src="../assets/images/common/Vector-Line.svg" alt="star" style="bottom: -1%; left: 22%">
+                                        <img class="position-absolute d-none lg:d-block xl:d-none" src="../assets/images/common/Vector-Line.svg" alt="star" style="width: 220px; bottom: -1%; left: 35.5%">
+                                        <img class="position-absolute w-100px sm:w-200px d-none md:d-block lg:d-none" src="../assets/images/common/Vector-Line.svg" alt="star" style="bottom: -1%; left: 32%">
+                                    </div>
+                                </div>
+                                <p class="fs-6 md:fs-4 xl:fs-2 text-white">
+                                    We facilitate your entry into the local markets through press releases, interviews, <br class="d-none sm:d-block"> conferences with focus on trading communities 
+                                </p>
+                                <div class="hstack gap-2 xl:gap-3 justify-center">
+                                    <a class="btn xl:btn-lg btn-primary ft-secondary fs-4 ls-0 text-uppercase text-white px-4" href="https://calendly.com/vigitalbox" data-uc-scroll> <span>Book A Call</span><i class="icon-1 unicon-arrow-down text-white"></i> </a>
+                                    <a class="btn xl:btn-lg btn-outline-light ft-secondary fs-4 ls-0 text-uppercase px-3" href="#uni_services">
+                                        <span>Know More</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="uni_brand" class="uni-brand section panel overflow-hidden py-7 xl:py-8" data-anime="onview: -300; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750;">
+                <div class="section-outer panel">
+                    <div class="container max-w-xl">
+                        <div class="section-inner panel">
+                            <div class="swiper" data-uc-swiper="items: 3; gap: 32; autoplay: 6000;" data-uc-swiper-s="items: 4; gap: 60;" data-uc-swiper-m="items: 5; gap: 90;" data-uc-swiper-l="items: 5; gap: 120;">
+                                <div class="swiper-wrapper items-center">
+                                    <div class="swiper-slide text-center">
+                                        <img class="h-40px dark:text-white" src="../assets/images/brands/brand-01.svg" alt="Proline" data-uc-svg>
+                                    </div>
+                                    <div class="swiper-slide text-center">
+                                        <img class="h-40px dark:text-white" src="../assets/images/brands/brand-02.svg" alt="PinPoint" data-uc-svg>
+                                    </div>
+                                    <div class="swiper-slide text-center">
+                                        <img class="h-40px dark:text-white" src="../assets/images/brands/brand-03.svg" alt="Clues" data-uc-svg>
+                                    </div>
+                                    <div class="swiper-slide text-center">
+                                        <img class="h-40px dark:text-white" src="../assets/images/brands/brand-04.svg" alt="Snowflake" data-uc-svg>
+                                    </div>
+                                    <div class="swiper-slide text-center">
+                                        <img class="h-40px dark:text-white" src="../assets/images/brands/brand-05.svg" alt="Proline" data-uc-svg>
+                                    </div>
+                                    <div class="swiper-slide text-center">
+                                        <img class="h-40px dark:text-white" src="../assets/images/brands/brand-06.svg" alt="Iceberg" data-uc-svg>
+                                    </div>
+                                    <div class="swiper-slide text-center">
+                                        <img class="h-40px dark:text-white" src="../assets/images/brands/brand-07.svg" alt="PinPoint" data-uc-svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="uni_services" class="uni-services section panel overflow-hidden dark:text-white">
+                <div class="section-outer panel">
+                    <div class="container max-w-xl">
+                        <div class="section-inner panel">
+                            <div class="vstack gap-6 xl:gap-9">
+                                <p class="service-desc fs-5 sm:fs-4 lg:fs-3 xl:fs-1 fw-medium dark:text-white" data-anime="onview: -133; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750;">Many crypto companies fail due to a lack of local market knowledge and inadequate brand localization. We will elevate your brand to become one of the top 10 crypto companies in Poland.</p>
+                                <header class="service-heading vstack gap-1 xl:gap-2 overflow-hidden" data-anime="onview: -250; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 250;">
+                                    <div class="hstack gap-2">
+                                        <hr class="border-primary border-2 opacity-100 w-48px xl:w-64px">
+                                        <span class="fs-5 xl:fs-3 dark:text-gray-200">Know us better</span>
+                                    </div>
+                                    <h3 class="h3 sm:h2 xl:display-6 text-uppercase lh-sm m-0">Services that meet your needs</h3>
+                                </header>
+                                <div class="service-content panel">
+                                    <div class="row child-cols-12 g-1 sm:g-2 lg:g-6 xl:g-8 col-match" data-anime="targets: > *; onview: -150; translateX: [16, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(100, {start: 500});">
+                                        <div class="lg:col-5">
+                                            <div class="panel">
+                                                <div class="position-absolute bottom-0 start-0 w-100 bg-white dark:bg-gray-900 z-1"></div>
+                                                <div class="ratio ratio-2x3 rounded rounded-0 sm:h-450px lg:h-100 uc-transition-toggle overflow-hidden">
+                                                    <img class="media-cover image uc-transition-scale-up uc-transition-opaque" src="../assets/images/services/image-01.jpg" alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="lg:col">
+                                            <ul class="nav-y gap-0">
+                                                <li>
+                                                    <a class="service-item hstack items-start gap-2 py-3 xl:py-4">
+                                                        <div class="hstack items-start gap-2 xl:gap-3">
+                                                            <div class="panel">
+                                                                <i class="icon-3 sm:icon-4 xl:icon-5 text-primary unicon-fire"></i>
+                                                            </div>
+                                                            <div class="vstack gap-1 sm:gap-2">
+                                                                <h3 class="h4 sm:h3 xl:h2 text-uppercase m-0">Event organisation</h3>
+                                                                <p class="fs-7 sm:fs-6 xl:fs-4">One-stop-shop event organization hub: agenda, logistics, venues, hosts.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel">
+                                                          
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="service-item hstack items-start gap-2 py-3 xl:py-4 border-top dark:border-gray-700">
+                                                        <div class="hstack items-start gap-2 xl:gap-3">
+                                                            <div class="panel">
+                                                                <i class="icon-3 sm:icon-4 xl:icon-5 text-primary unicon-color-palette"></i>
+                                                            </div>
+                                                            <div class="vstack gap-1 sm:gap-2">
+                                                                <h3 class="h4 sm:h3 xl:h2 text-uppercase m-0">Influencer Marketing</h3>
+                                                                <p class="fs-7 sm:fs-6 xl:fs-4">We bring the TOP Crypto Influencers on board at the most efficient cost level.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel">
+                                                           
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="service-item hstack items-start gap-2 py-3 xl:py-4 border-top dark:border-gray-700">
+                                                        <div class="hstack items-start gap-2 xl:gap-3">
+                                                            <div class="panel">
+                                                                <i class="icon-3 sm:icon-4 xl:icon-5 text-primary unicon-gamification"></i>
+                                                            </div>
+                                                            <div class="vstack gap-1 sm:gap-2">
+                                                                <h3 class="h4 sm:h3 xl:h2 text-uppercase m-0">Conquering local markets</h3>
+                                                                <p class="fs-7 sm:fs-6 xl:fs-4">Establishing your business and products locally throguh cost-efficient media coverage</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel">
+                                                        
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="service-item hstack items-start gap-2 py-3 xl:py-4 border-top dark:border-gray-700">
+                                                        <div class="hstack items-start gap-2 xl:gap-3">
+                                                            <div class="panel">
+                                                                <i class="icon-3 sm:icon-4 xl:icon-5 text-primary unicon-scalpel-lasso"></i>
+                                                            </div>
+                                                            <div class="vstack gap-1 sm:gap-2">
+                                                                <h3 class="h4 sm:h3 xl:h2 text-uppercase m-0">Viral on Social Media</h3>
+                                                                <p class="fs-7 sm:fs-6 xl:fs-4">ChatGPT We develop and manage social media content to maximize its reach and engagement.</p>
+                                                            </div>
+                                                        </div>
+                                                        <div class="panel">
+                                                           
+                                                        </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="uni_about" class="uni-about section panel overflow-hidden dark:text-white">
+                <div class="section-outer panel py-9 xl:py-10">
+                    <div class="container max-w-xl">
+                        <div class="section-inner panel">
+                            <div class="vstack gap-6 xl:gap-9">
+                                <header class="about-heading vstack gap-1 xl:gap-2 overflow-hidden" data-anime="onview: -250; translateY: [16, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: 250;">
+                                    <div class="hstack gap-2">
+                                        <hr class="border-primary border-2 opacity-100 w-48px xl:w-64px">
+                                        <span class="fs-5 xl:fs-3 dark:text-gray-200">About us</span>
+                                    </div>
+                                    <h3 class="h3 sm:h2 xl:display-6 text-uppercase lh-sm m-0">Web 3 agency with focus on trading products</h3>
+                                </header>
+                                <div class="about-content panel">
+                                    <div class="row child-cols-12 g-3 sm:g-5 lg:g-3 xl:g-5" data-anime="targets: > *; onview: -150; translateX: [16, 0]; opacity: [0, 1]; easing: easeOutExpo; duration: 750; delay: anime.stagger(100, {start: 500});">
+                                        <div class="lg:w-450px xl:w-600px">
+                                            <div class="about-item vstack gap-4 lg:gap-5 xl:gap-8">
+                                                <div class="about-item-image panel">
+                                                    <div class="ratio ratio-4x3 rounded rounded-0 uc-transition-toggle overflow-hidden">
+                                                        <img class="media-cover image uc-transition-false uc-transition-opaque" src="../assets/images/about/image-01.jpg" alt="image">
+                                                    </div>
+                                                </div>
+                                                <div class="about-item-content vstack gap-2 xl:gap-3">
+                                                    <h3 class="h4 sm:h3 lg:h4 xl:h3 text-uppercase m-0">Our Philosophy</h3>
+                                                    <p class="fs-6 sm:fs-4 lg:fs-6 xl:fs-4">We firmly believe that our success hinges on the collaborative efforts of both your company and ours. Through effective teamwork, we can attain significant, measurable success together.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="lg:col">
+                                            <div class="panel">
+                                                <div class="row child-cols-12 sm:child-cols-4 lg:child-cols-12 g-3 sm:g-2 lg:g-3 xl:g-5">
+                                                    <div>
+                                                        <div class="about-item vstack lg:hstack gap-3 xl:gap-5">
+                                                            <div class="about-item-image panel">
+                                                                <div class="ratio ratio-1x1 rounded rounded-0 lg:w-150px xl:w-200px uc-transition-toggle overflow-hidden">
+                                                                    <img class="media-cover image uc-transition-false uc-transition-opaque" src="../assets/images/about/image-02.jpg" alt="image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="about-item-content vstack gap-2 sm:gap-1 lg:gap-2 xl:gap-3">
+                                                                <h3 class="h4 xl:h3 text-uppercase m-0">How We work</h3>
+                                                                <p class="fs-6 sm:fs-7 lg:fs-6 xl:fs-4 sm:mt-narrow lg:m-0">Before proceeding with marketing, we spend two weeks analyzing your brand and engage in multiple discussions with your team to fully understand all its features and unique selling points.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="about-item vstack lg:hstack gap-3 xl:gap-5">
+                                                            <div class="about-item-image panel">
+                                                                <div class="ratio ratio-1x1 rounded rounded-0 lg:w-150px xl:w-200px uc-transition-toggle overflow-hidden">
+                                                                    <img class="media-cover image uc-transition-false uc-transition-opaque" src="../assets/images/about/image-03.jpg" alt="image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="about-item-content vstack gap-2 sm:gap-1 lg:gap-2 xl:gap-3">
+                                                                <h3 class="h4 xl:h3 text-uppercase m-0">Who We are</h3>
+                                                                <p class="fs-6 sm:fs-7 lg:fs-6 xl:fs-4 sm:mt-narrow lg:m-0">We are a team of young, dynamic individuals, full of initiative and unique ideas to elevate your brand to the top.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="about-item vstack lg:hstack gap-3 xl:gap-5">
+                                                            <div class="about-item-image panel">
+                                                                <div class="ratio ratio-1x1 rounded rounded-0 lg:w-150px xl:w-200px uc-transition-toggle overflow-hidden">
+                                                                    <img class="media-cover image uc-transition-false uc-transition-opaque" src="../assets/images/about/image-04.jpg" alt="image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="about-item-content vstack gap-2 sm:gap-1 lg:gap-2 xl:gap-3">
+                                                                <h3 class="h4 xl:h3 text-uppercase m-0">Our strategy</h3>
+                                                                <p class="fs-6 sm:fs-7 lg:fs-6 xl:fs-4 sm:mt-narrow lg:m-0">We're a team of young, dynamic individuals, brimming with initiative and originality, united in our mission to establish your crypto brand as a household name in Poland and beyond.</p>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+            <!-- Section start -->
+            <div id="uni_number" class="uni-number section panel overflow-hidden dark:text-white">
+                <div class="section-outer panel py-2 xl:py-0">
+                    <div class="container max-w-xl">
+                        <div class="section-inner panel lg:mx-2 xl:mx-3 text-center">
+                            <div class="row child-cols-6 sm:child-cols-auto justify-between g-4">
+                                <div>
+                                    <div class="number-item vstack items-center gap-1">
+                                        <i class="icon-4 xl:icon-6 text-primary unicon-blog"></i>
+                                        <h3 class="display-6 lg:display-5 xl:display-2 mt-1 mb-0"><span data-anime="onview: -100; textContent: [0, 450]; round: 1; easing: linear; duration: 1200;"></span>+</h3>
+                                        <span class="fs-5 xl:fs-3">Projects delivered</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="number-item vstack items-center gap-1">
+                                        <i class="icon-4 xl:icon-6 text-primary unicon-events"></i>
+                                        <h3 class="display-6 lg:display-5 xl:display-2 mt-1 mb-0"><span data-anime="onview: -100; textContent: [0, 150]; round: 1; easing: linear; duration: 1200;"></span>+</h3>
+                                        <span class="fs-5 xl:fs-3">Influencers</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="number-item vstack items-center gap-1">
+                                        <i class="icon-4 xl:icon-6 text-primary unicon-dashboard"></i>
+                                        <h3 class="display-6 lg:display-5 xl:display-2 mt-1 mb-0"><span data-anime="onview: -100; textContent: [0, 110]; round: 1; easing: linear; duration: 1200;"></span>+</h3>
+                                        <span class="fs-5 xl:fs-3">Conferences</span>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="number-item vstack items-center gap-1">
+                                        <i class="icon-4 xl:icon-6 text-primary unicon-license-draft"></i>
+                                        <h3 class="display-6 lg:display-5 xl:display-2 mt-1 mb-0"><span data-anime="onview: -100; textContent: [0, 16]; round: 1; easing: linear; duration: 1200;"></span></h3>
+                                        <span class="fs-5 xl:fs-3">Happy Clients</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Section end -->
+
+         
+
+            <!-- Section end -->
+
+        
+
+            <!-- Section end -->
+
+            <!-- Section end -->
+        </div>
+
+        <!-- Wrapper end -->
+
+        <!-- Footer start -->
+        <footer id="uc-footer" class="uc-footer panel overflow-hidden" style="margin-top: 75px">
+            <div class="footer-outer dark:text-white">
+                <div class="container max-w-xl">
+                    <div class="panel cta-footer overflow-hidden bg-gray-25 dark:bg-gray-800">
+                        <span><img class="shape-01 position-absolute z-99" src="../assets/images/common/shape-line.svg" alt="shape"></span>
+                        <div class="vstack gap-4 items-center text-center py-10 overflow-hidden">
+                            <h1 class="h1 lg:display-2 text-uppercase m-0">Ready to grow with you!</h1>
+                            <p class="fs-5 lg:fs-4">Find a suitable time for a call</p>
+                            <a class="btn xl:btn-lg btn-primary ft-secondary w-fit fs-5 xl:fs-4 text-uppercase ls-0 text-white px-3 xl:px-4 gap-2 sm:mb-1" href="https://calendly.com/vigitalbox">
+                                <span>Book A Call </span>
+                                <i class="icon-1 unicon-arrow-up-right"></i>
+                            </a>
+                        </div>
+                        <span><img class="shape-02 position-absolute z-99" src="../assets/images/common/shape-line.svg" alt="shape"></span>
+                    </div>
+                    <div class="footer-inner vstack gap-4 lg:gap-6 xl:gap-8 mt-10">
+                  
+                        <div class="uc-footer-bottom panel vstack lg:hstack gap-4 justify-center lg:justify-between py-4 lg:py-6 border-top dark:text-white">
+                            <div class="vstack sm:hstack justify-center lg:justify-start items-center lg:items-start gap-1 lg:gap-2">
+                                <p class="fs-4">Vigitalbox © 2024, All rights reserved.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Footer end -->
+
+        <!-- include jquery & bootstrap js -->
+        <script defer src="../assets/js/libs/jquery.min.js"></script>
+        <script defer src="../assets/js/libs/bootstrap.min.js"></script>
+
+        <!-- include uni-core components -->
+        <script defer src="../assets/js/uni-core/js/components/notification.min.js"></script>
+        <script defer src="../assets/js/uni-core/js/components/parallax.min.js"></script>
+        <script defer src="../assets/js/uni-core/js/components/lightbox.min.js"></script>
+        <script defer src="../assets/js/uni-core/js/components/countdown.min.js"></script>
+        <script defer src="../assets/js/uni-core/js/components/tooltip.min.js"></script>
+        <script defer src="../assets/js/uni-core/js/components/slider.min.js"></script>
+        <script defer src="../assets/js/uni-core/js/components/slider-parallax.min.js"></script>
+        <script defer src="../assets/js/uni-core/js/components/slideshow.min.js"></script>
+        <script defer src="../assets/js/uni-core/js/components/slideshow-parallax.min.js"></script>
+
+        <!-- include scripts -->
+        <script defer src="../assets/js/libs/anime.min.js"></script>
+        <script defer src="../assets/js/libs/swiper-bundle.min.js"></script>
+        <script defer src="../assets/js/libs/split-type.min.js"></script>
+        <script defer src="../assets/js/libs/scrollmagic.min.js"></script>
+        <script defer src="../assets/js/libs/gsap.min.js"></script>
+        <script defer src="../assets/js/helpers/data-attr-helper.js"></script>
+        <script defer src="../assets/js/helpers/swiper-helper.js"></script>
+        <script defer src="../assets/js/helpers/splitype-helper.js"></script>
+        <script defer src="../assets/js/helpers/anime-helper.js"></script>
+        <script defer src="../assets/js/helpers/anime-helper-defined-timelines.js"></script>
+        <script defer src="../assets/js/core/preloader.js"></script>
+        <script defer src="../assets/js/core/marquee.js"></script>
+        <script defer src="../assets/js/uikit-components-bs.js"></script>
+
+        <!-- include app script -->
+        <script defer src="../assets/js/app.js"></script>
+
+        <script>
+            // Schema toggle via URL
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            const getSchema = urlParams.get("schema");
+            if (getSchema === "dark") {
+                setDarkMode(1);
+            } else if (getSchema === "light") {
+                setDarkMode(0);
+            }
+        </script>
+    </body>
+</html>

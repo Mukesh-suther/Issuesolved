@@ -1,0 +1,37 @@
+// Import in-house components from UIkit core
+@import '../../js/uni-core/css/components/accordion.min.css';
+@import '../../js/uni-core/css/components/navbar.min.css';
+@import '../../js/uni-core/css/components/nav.min.css';
+@import '../../js/uni-core/css/components/drop.min.css';
+@import '../../js/uni-core/css/components/dropdown.min.css';
+@import '../../js/uni-core/css/components/dropbar.min.css';
+@import '../../js/uni-core/css/components/dotnav.min.css';
+@import '../../js/uni-core/css/components/modal.min.css';
+@import '../../js/uni-core/css/components/sticky.min.css';
+@import '../../js/uni-core/css/components/offcanvas.min.css';
+@import '../../js/uni-core/css/components/switcher.min.css';
+@import '../../js/uni-core/css/components/notification.min.css';
+@import '../../js/uni-core/css/components/tooltip.min.css';
+@import '../../js/uni-core/css/components/sortable.min.css';
+@import '../../js/uni-core/css/components/countdown.min.css';
+@import '../../js/uni-core/css/components/tab.min.css';
+@import '../../js/uni-core/css/components/dropdown.min.css';
+@import '../../js/uni-core/css/components/lightbox.min.css';
+@import '../../js/uni-core/css/components/list.min.css';
+@import '../../js/uni-core/css/components/animation.min.css';
+@import '../../js/uni-core/css/components/transition.min.css';
+@import '../../js/uni-core/css/components/cover.min.css';
+@import '../../js/uni-core/css/components/close.min.css';
+@import '../../js/uni-core/css/components/slider.min.css';
+@import '../../js/uni-core/css/components/slideshow.min.css';
+@import '../../js/uni-core/css/components/svg.min.css';
+@import '../../js/uni-core/css/components/visibility.min.css';
+
+// Import custom scss for in-house components
+@import 'base.scss';
+@import 'image.scss';
+@import 'svg.scss';
+@import 'animate.scss';
+@import 'preloader.scss';
+@import 'marquee.scss';
+@import 'swiper.scss';

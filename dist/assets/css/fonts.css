@@ -1,0 +1,30 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200;12..96,300;12..96,400;12..96,500;12..96,600;12..96,700&family=Poppins:wght@400;500;600;700&display=swap');
+
+/* Import theme font: Trump Ghotic */
+@font-face {
+    font-family: 'Trump Gothic';
+    font-weight: 700;
+    text-transform: uppercase;
+    src: url('../fonts/trump-gothic/Trump-Gothic.woff2');
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+    ascent-override: 100%;
+}
+/* Import theme font: Trump Ghotic */
+@font-face {
+    font-family: 'Maison-Neue';
+    font-weight: 400;
+    src: url('../fonts/Maison-Neue/MaisonNeue-Light.woff');
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+    ascent-override: 100%;
+}
+@font-face {
+    font-family: 'Maison-Neue';
+    font-weight: 500;
+    src: url('../fonts/Maison-Neue/MaisonNeue-Medium.woff');
+    text-rendering: optimizeLegibility;
+    font-display: swap;
+    ascent-override: 100%;
+}

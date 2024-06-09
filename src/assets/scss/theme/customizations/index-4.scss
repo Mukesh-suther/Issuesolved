@@ -1,0 +1,29 @@
+.home-four {
+    .uni-services {
+        .service-item {
+            transition: 200ms cubic-bezier(1, 0, 0.08, 1) !important;
+            .number ,
+            .title ,
+            .desc ,
+            .link-btn {
+                transition: 200ms cubic-bezier(1, 0, 0.08, 1) !important;
+            }
+            &:hover {
+                .number ,
+                .title ,
+                .desc ,
+                .link-btn {
+                    color: var(--color-white) !important;
+                }
+            }
+        }
+    }
+    .uni-about {
+        .bg-absolute {
+            width: 106%;
+            @include xl {
+                width: 108%;
+            }
+        }
+    }
+}

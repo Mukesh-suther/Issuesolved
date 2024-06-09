@@ -1,0 +1,170 @@
+
+.home-one {
+    .uni-hero {
+        .section-inner {
+            .circle {
+                @include md {
+                    width: 314px;
+                    right: 2%;
+                    bottom: 48%;
+                }
+                @include lg {
+                    width: 360px;
+                    right: 10%;
+                }
+                @include xl {
+                    width: 452px;
+                    right: 9%;
+                    top: -1%;
+                }
+            }
+            .vector-right {
+                top: 55%;
+                @include  md {
+                    width: 46px;
+                    right: 3%;
+                }
+                @include lg {
+                    right: 12%;
+                    width: 50px;
+                }
+                @include xl {
+                    right: 8%;
+                    width: fit-content;
+                }
+            }
+            .vector-left {
+                top: 55%;
+                @include md {
+                    width: 46px;
+                    left: 3%;
+                }
+                @include lg {
+                    left: 12%;
+                    width: 50px;
+                }
+                @include xl {
+                    left: 8%;
+                    width: fit-content;
+                }
+            }
+        }
+    }
+    .uni-services {
+        .item-service {
+            .icon-mask {
+                position: absolute;
+                top: -64%;
+                right: -12%;
+                opacity: 0.08;
+                font-size: 10pc;
+                @include sm {
+                    font-size: 12pc;
+                }
+                @include md {
+                    font-size: 14pc;
+                }
+                @include xl {
+                    font-size: 16pc;
+                }
+            }
+        }
+    }
+    .uni-about {
+        .inner {
+            .img-1 {
+                @include lg {
+                    width: 384px;
+                    height: 470px;
+                }
+                @include xl {
+                    width: 482px;
+                    height: 568px;
+                }
+            }
+            .item-img {
+                top: 36%;
+                right: 6%;
+                border: solid 24px;
+                .img-2 {
+                    @include md {
+                        top: 58%;
+                        right: 13.5%;
+                        width: 264px;
+                        height: 353px;
+                    }
+                    @include xl {
+                        width: 338px;
+                        height: 372px;
+                    }
+                }
+            }
+            .line {
+                @include lg {
+                    right: 16%;
+                    top: 6%;
+                }
+                @include xl {
+                    top: 0%;
+                    right: 18%;
+                }
+            }
+            .dots {
+                @include lg {
+                    bottom: 4%;
+                    right: 60%;
+                }
+                @include xl {
+                    bottom: 4%;
+                    right: 67%;
+                }
+            }
+        }
+    }
+    
+    .uni-works {
+        .inner {
+            .item-work {
+                .item-content {
+                    transform: translateY(100%);
+                    transition: transform 0.4s ease-in-out;
+                    box-sizing: border-box;
+                    .content-holder {
+                        opacity: 0;
+                        transform: translateY(-150%);
+                        transition: transform 0.35s cubic-bezier(1, 0, 0, 1), opacity 0.35s cubic-bezier(0.165, 0.84, 0.44, 1);
+                    }
+                }
+                &:hover {
+                    .item-content {
+                        transform: translateY(0);
+                        transition: transform 0.45s cubic-bezier(1, 0, 0, 1);
+                        .content-holder {
+                            opacity: 1;
+                            transform: translateY(0);
+                            transition: 0.45s cubic-bezier(0.165, 0.84, 0.44, 1) 0.2s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .uni-clients {
+        .overlay {
+            @include xl {
+                top: -4%;
+                left: 2%;
+            }
+        }
+        .img-cover {
+            span {
+                @include lg {
+                    bottom: -7%;
+                }
+                @include xl {
+                    bottom: -1%;
+                }
+            }
+        }
+    }
+}

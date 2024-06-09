@@ -1,0 +1,24 @@
+.home-two {
+    .uni-clients {
+        .uni-clients-content {
+            .swiper-slide {
+                opacity: .5;
+                .uni-clients-item {
+                    .image {
+                        width: 75px;
+                        @include lg {
+                            width: 90px;
+                        }
+                        @include xl {
+                            width: 100px;
+                        }
+                    }
+                }
+            }
+            .swiper-slide-thumb-active {
+                background-color: transparent;
+                opacity: 1 !important;
+            }
+        }
+    }
+}
